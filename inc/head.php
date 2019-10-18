@@ -23,14 +23,3 @@
             <h3 class="panel-title text-uppercase">UFO's Activities report</h3>
         </div>
         <div class="panel-body">
-            <form method="post" action="">
-                <div class="form-group">
-                    <label>
-                        <textarea name="content" style="width: 30em; height: 10em;">
-                           <?php echo $content; ?>
-                        </textarea>
-                    </label>
-                </div>
-                <input type="hidden" name="file" >
-                <input type="submit" value="Envoyer">
-            </form>
